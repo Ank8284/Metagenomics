@@ -124,15 +124,12 @@ flowchart TD
 ```
 ## 11. Practical Notes
 
-Always check sequencing depth before analysis.
+- Always check sequencing depth before analysis.
+- Normalize or transform data before ordination.
+- Use PERMANOVA for beta diversity hypothesis testing.
+- Apply multiple testing correction for differential abundance.
+- Document batch correction steps (ComBat, limma).
 
-Normalize or transform data before ordination.
-
-Use PERMANOVA for beta diversity hypothesis testing.
-
-Apply multiple testing correction for differential abundance.
-
-Document batch correction steps (ComBat, limma).
 ---
 ## 12. References
 ```mermaid
